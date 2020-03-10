@@ -7,3 +7,6 @@ if (temp < 0 ) {
 } else {
     console.log('What a weather! Let\'s go on the beach xD ')
 }
+
+const rain = true;
+rain ? console.log('Where is your umbrella?') : console.log('No rain - No pain');
