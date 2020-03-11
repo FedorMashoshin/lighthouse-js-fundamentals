@@ -1,3 +1,9 @@
+// let arr = ['Fedor', 'Alice', 'Martin'];
+// for (name of arr){
+//     console.log(name); --> result --> List of all names (Fedor, Alice, Martin)
+// }
+
+
 const stations = [
     ['Big Bear Donair', 10, 'restaurant'],
     ['Sports', 30, 'sport-center'],
