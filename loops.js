@@ -1,15 +1,23 @@
-//!============== WHILE ==============\\
-const chorus = "Let's dance!";
-let repeat = 0;
-while (repeat < 5) {
-  console.log(chorus);
-  repeat++;
-}
-console.log("Until the sun comes up!");
+let names = ['Fedor','Alice','Romeo','Martin','Alice','Jack'];
+
+// ! ========= WHILE ========= \\
+// let i = 0;
+// while (i < names.length){
+//     console.log(names[i]);
+//     i++;
+// }
+
+// ! ========= FOR ========= \\
+// for(i = 0; i < names.length;i++){
+//     console.log(names[i]);
+// }
 
 
-//!============== FOR ==============\\
-for (i = 0; i < 5; i ++){
-    console.log('Yes!')
-} 
-console.log('No!')
+// ! ========= FOR OF  ========= \\
+// for(name of names){
+//     console.log(name)
+// }
+ 
+
+// ! ========= REVERSE ========= \\
+console.log(names.reverse())
